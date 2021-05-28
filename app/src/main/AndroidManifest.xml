@@ -9,16 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Prac_android">
-        <activity android:name=".CalculatorActivity">
+
+        <activity android:name=".ListViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
 
-        </activity>
+        <activity android:name=".AddViewActivity"></activity>
+        <activity android:name=".FragmentActivity" />
+        <activity android:name=".CalculatorActivity" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
