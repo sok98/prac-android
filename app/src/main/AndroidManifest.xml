@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Prac_android">
 
-        <activity android:name=".ListViewActivity">
+        <activity android:name=".RecyclerViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,7 +18,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".AddViewActivity"></activity>
+        <activity android:name=".ListViewActivity"></activity>
+        <activity android:name=".AddViewActivity" />
         <activity android:name=".FragmentActivity" />
         <activity android:name=".CalculatorActivity" />
         <activity android:name=".MainActivity" />
