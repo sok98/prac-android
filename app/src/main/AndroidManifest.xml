@@ -10,15 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Prac_android">
 
-        <activity android:name=".RecyclerViewActivity">
+        <activity android:name=".TabPagerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
 
-        <activity android:name=".ListViewActivity"></activity>
+        <activity android:name=".RecyclerViewActivity"></activity>
+        <activity android:name=".ListViewActivity" />
         <activity android:name=".AddViewActivity" />
         <activity android:name=".FragmentActivity" />
         <activity android:name=".CalculatorActivity" />
