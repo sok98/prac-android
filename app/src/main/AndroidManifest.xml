@@ -11,15 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Prac_android">
-        <activity android:name=".RetrofitActivity">
+        <activity android:name=".PersonlistActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".NetworkActivity"></activity>
+        <activity android:name=".RetrofitActivity">
+        </activity>
+        <activity android:name=".NetworkActivity" />
         <activity android:name=".AsyncActivity" />
         <activity android:name=".TabPagerActivity" />
         <activity android:name=".RecyclerViewActivity" />
